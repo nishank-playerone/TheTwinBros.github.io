@@ -1,6 +1,7 @@
-h1:hover{
+h1:active, body:active{
+   color: Whitesmoke
+}
+h1:hover, body:hover{
   color: Aqua  
 }
-body{
- background-color: Aqua
-}
+
