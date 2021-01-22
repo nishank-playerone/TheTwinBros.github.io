@@ -1,17 +1,71 @@
-<html>
+<html lang="en" dir="ltr">
 <head>
-<title>TheTwinBros</title>
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yusei+Magic">
+<title>Twin's|Page</title>
+<link rel="shortcut icon" type="image/x-icon" href="" />
+</head>
+<body>
 <style>
 body {
-  background-image: url('https://media1.giphy.com/media/Jsu7wXi2uhtzfR94mQ/giphy.gif');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  }
+background-image: url('https://media1.giphy.com/media/Jsu7wXi2uhtzfR94mQ/giphy.gif');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+h2{
+font-family:'Yusei Magic',sans-serif;
+color:#ff114d;
+font-size:70px;
+}
+#text:hover {
+animation: effect linear 1s;
+}
+@keyframes effect {
+0% {
+transform: scale(1, 1);
+}
+25% {
+transform: scale(1.3, 0.6);
+}
+50% {
+transform: scale(1.1, 0.9);
+}
+100% {
+transform: scale(1, 1);
+}
+}
+.glow {
+font-size:80px;
+color:#0373fc;
+text-align:center;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+::-webkit-scrollbar{
+width:15px;
+}
+::-webkit-scrollbar-track{
+background:linear-gradient(to bottom right,#1150ff,#ff8011,#679267);
+}
+::-webkit-scrollbar-thumb{
+background-color:red;
+}
 </style>
-</head>   
-<body>
-<center><strong><h1>Welcome to the Brawlin Page</h1></strong></center>
+<div id="text">
+<center><h1 class="glow" style="font-family:'East Sea Dokdo',cursive;">Nishank|Sushanth</h1>
+</div>
+<hr>
 </body>
 </html>
